@@ -1,0 +1,94 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hey", "Hello", "What's up", "How's going", "What are you upto", "Is anyone there?", "How are you doing?", "Hi there"
+            ],
+            "responses": [
+                "Hey :-)", "I'm doing great!", "Hello, thanks for visiting", "Hi there, what can I do for you?", "Hi there, how can I help?", "Hi, how can I help you.."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "Goodbye", "See you later", "Tata", "I'm off", "Bye for now", "Thanks goodbye"
+            ],
+            "responses": [
+                "Thanks, see you soon", "Goodbye", "Thanks for visiting", "See you soon", "Have a nice day", "Bye! Come back again soon.", "Have a nice day"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "funny",
+            "patterns": ["tell me a joke", "Make me laugh", "Be funny", "Tell me something funny!", "Do you know a joke?", "tell me another joke"],
+            "responses": [
+                "Why don’t cats like online shopping? They prefer a cat-alogue.",
+                "What do you call a fake noodle? An impasta.",
+                "Knock, knock! Who’s there? Woo. Woo who? Glad you’re excited, too.",
+                "What are ten things you can always count on? Your fingers.",
+                "Why was the equal sign so humble? Because it wasn’t greater than or less than anyone else.",
+                "Why is the obtuse triangle always so irritated? Because it’s never right.",
+                "Why was the geometry teacher late to class? She sprained her angle.",
+                "What type of snake ate all the desserts? A pie-thon.",
+                "A recent finding by statisticians shows the average human has one breast and one testicle.",
+                "What’s the best thing about Switzerland? I don’t know, but the flag is a big plus.",
+                "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve."
+            ]
+        },
+
+        {
+            "tag": "payments",
+            "patterns": [
+              "Do you take credit cards?",
+              "Do you accept Mastercard?",
+              "Can I pay with Gpay?",
+              "Can I pay online",
+              "Modes of payment",
+              "Are you cash only?",
+              "Patyment modes",
+              "Do you accept online payment?"
+            ],
+            "responses": [
+              "We accept VISA, Mastercard and Gpay",
+              "We accept most major credit cards, and Gpay"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+              "How long does delivery take?",
+              "How long does shipping take?",
+              "When do I get my delivery?"
+            ],
+            "responses": [
+                "Delivery takes 2-4 days",
+                "Shipping takes 2-4 days"
+              ]
+        },
+        {
+            "tag": "cart",
+            "patterns": [
+                "What's in my cart", "My cart", "Show cart", "Display cart"
+            ],
+            "responses": ["1. Lots of love -- X2, 2. Good vibes --X1"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Show items", "What items are available", "What do you sell", "What kind of items do you sell", "stocks available"
+            ],
+            "responses": ["We sell Lots of love, and Good vibes"]
+        },
+        {
+            "tag": "abuse",
+            "patterns": ["Fuck off", "Fuck you", "Bitch!!", "You are a little bitch", "Asshole"],
+            "responses": ["Behave yourself asshole!", "Fuck off you are a loser", "Have some manners you moron", "Your family doesn't love you"]
+        }
+    ]
+
+}
